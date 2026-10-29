@@ -49,3 +49,22 @@ clean = text.strip()  # TODO: what is the value of clean?
 ```
 
 What does `strip()` do to the spaces inside the string?
+
+---
+## 2026-10-29 10:11, in .
+
+**Me:** What is the difference between int() and float() in Python?
+
+**Tutor:**
+
+Converting strings or numbers to integers vs floating-point numbers.
+
+```python
+# int() keeps only the whole part
+whole = int(3.99)      # TODO: what is the value of whole?
+
+# float() keeps the decimal part
+decimal = float(7)     # TODO: what is the value of decimal?
+```
+
+What does `int("5")` return?
