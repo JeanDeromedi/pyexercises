@@ -160,3 +160,22 @@ Which function returns a new list instead of changing the original?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-29 11:28, in .
+
+**Me:** What is the purpose of a for loop in Python?
+
+**Tutor:**
+
+A for loop is used to repeat a block of code a known number of times, once for each item in a sequence.
+
+```python
+# Example: print every fruit in a list
+fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits:
+    print(fruit)   # TODO: replace print with your own action
+```
+
+What built-in function gives you the items one by one from a list?
