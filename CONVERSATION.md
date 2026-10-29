@@ -85,3 +85,34 @@ print(remainder)
 ```
 
 What is the general name for the % operator in Python?
+
+---
+## 2026-10-29 10:54, in .
+
+**Me:** What is the difference between sorted() and sort() in Python?
+
+**Tutor:**
+
+Sorting a list in place versus returning a new list.
+
+- `sorted(iterable)` returns a new sorted list and leaves the original unchanged.
+- `list.sort()` sorts the list in place and returns `None`.
+
+Pattern with toy data:
+
+```python
+# TODO: create a toy list
+toy = [3, 1, 4]
+
+# TODO: use sorted() to create a new sorted list
+new_sorted = sorted(toy)
+
+# TODO: use sort() to sort the list in place
+toy.sort()
+
+# TODO: print both results
+print("new_sorted:", new_sorted)
+print("toy after sort():", toy)
+```
+
+Which function returns a new list instead of modifying the original?
