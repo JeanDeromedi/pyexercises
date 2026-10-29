@@ -24,10 +24,28 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In: A sentence entered by the user.
+# 2. Process: Apply four different text transformations to the sentence.
+# 3. Out: Display the four modified versions of the sentence.
 # 4. My four transformations, and when each is useful:
-
+# upper(): Converts text to uppercase for headings.
+# lower(): Converts text to lowercase for consistency.
+# strip(): Removes extra spaces at the beginning and end.
+# replace(): Replaces a word to correct or update text.
 
 # Your code below
+
+# Your code below
+
+sentence = input("Enter a sentence: ")
+
+print("Uppercase:", sentence.upper())
+print("Lowercase:", sentence.lower())
+print("Without extra spaces:", sentence.strip())
+print("Replaced word:", sentence.replace("Bank", "Office"))
+
+# TEST RESULTS
+# upper(): Worked as expected.
+# lower(): Worked as expected.
+# strip(): Worked as expected.
+# replace(): Worked as expected.

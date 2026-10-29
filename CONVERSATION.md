@@ -33,3 +33,19 @@ What is the first argument of the `print()` function in the last example?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-29 10:04, in .
+
+**Me:** Does strip() remove spaces between words or only at the beginning and end?
+
+**Tutor:**
+
+The `strip()` method removes only leading and trailing whitespace, not spaces between words.
+
+```python
+text = "  hello   world  "
+clean = text.strip()  # TODO: what is the value of clean?
+```
+
+What does `strip()` do to the spaces inside the string?
