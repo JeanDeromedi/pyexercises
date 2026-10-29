@@ -151,3 +151,12 @@ print(sorted_campaigns)
 
 Question
 Which function returns a new list instead of changing the original?
+
+---
+## 2026-10-29 11:07, in .
+
+**Me:** What is the difference between a list and a dictionary in Python?
+
+**Tutor:**
+
+Refused, off topic.
