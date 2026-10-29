@@ -26,10 +26,11 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My two fields, and what I would do with them:
+# 1. In: The user's name and age.
+# 2. Process: Ask the user to enter their name and age using input(). Store both answers in variables.
+# 3. Out: Two sentences displaying the user's name and age.
+# 4. My two fields, and what I would do with them: Name and age. These could be used in a client registration form & to identify a client and collect basic personal information.
+
 
 
 # Your code below
