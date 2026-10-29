@@ -116,3 +116,38 @@ print("toy after sort():", toy)
 ```
 
 Which function returns a new list instead of modifying the original?
+
+---
+## 2026-10-29 11:00, in .
+
+**Me:** What is the difference between sort() and sorted() in Python?
+
+**Tutor:**
+
+Difference in one sentence
+`list.sort()` changes the list in place and returns `None`; `sorted()` returns a new list and leaves the original unchanged.
+
+Pattern on toy data
+```python
+# TODO: create a list of fake campaign names
+campaigns = ["spring", "winter", "autumn"]
+
+# TODO: use list.sort() to sort it in place
+campaigns.sort()
+
+# TODO: print the list after sort()
+print(campaigns)
+
+# TODO: create the same list again
+campaigns = ["spring", "winter", "autumn"]
+
+# TODO: use sorted() to get a new sorted list
+sorted_campaigns = sorted(campaigns)
+
+# TODO: print both lists
+print(campaigns)
+print(sorted_campaigns)
+```
+
+Question
+Which function returns a new list instead of changing the original?
