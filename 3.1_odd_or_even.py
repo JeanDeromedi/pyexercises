@@ -27,7 +27,7 @@ DELIVERABLE
 # 1. In: A whole number entered by the user.
 # 2. Process: Divide the number by 2 using the modulus operator (%) to check the remainder.
 # 3. Out: Display whether the entered number is odd or even.
-# 4. What happens on 0, on a negative number, on a very large number:
+# 4. What happens on 0, on a negative number, on a very large number:0 is considered even. Negative numbers are checked normally and can be odd or even. Very large numbers also work because Python can handle large integers.
 
 
 # Your code below
@@ -38,3 +38,10 @@ if number % 2 == 0:
     print("The number is even.")
 else:
     print("The number is odd.")
+
+# TEST RESULTS
+# 7 / 2 gives 3.5 as expected.
+# The / operator performs normal division.
+# The // operator would give 3.0 because it uses floor division.
+# When the second number is 0, the program displays an error
+# message for division while the other operations still work.

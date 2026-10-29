@@ -68,3 +68,20 @@ decimal = float(7)     # TODO: what is the value of decimal?
 ```
 
 What does `int("5")` return?
+
+---
+## 2026-10-29 10:15, in .
+
+**Me:** What does the % operator do in Python?
+
+**Tutor:**
+
+The % operator is the modulus operator; it returns the remainder of dividing the left operand by the right.
+
+```python
+# Example: remainder after division
+remainder = 17 % 5   # TODO: what value will this hold?
+print(remainder)
+```
+
+What is the general name for the % operator in Python?
