@@ -206,3 +206,12 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-03 12:47, in .
+
+**Me:** How can I prevent invalid user inputs from being saved to a CSV file?
+
+**Tutor:**
+
+Refused, off topic.
