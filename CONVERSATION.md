@@ -188,3 +188,12 @@ What built-in function gives you the items one by one from a list?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-03 12:26, in .
+
+**Me:** Why should a function have a descriptive name?
+
+**Tutor:**
+
+Refused, off topic.
