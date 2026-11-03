@@ -197,3 +197,12 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-03 12:30, in .
+
+**Me:** Why is it better to use several small functions instead of one large function?
+
+**Tutor:**
+
+Refused, off topic.
