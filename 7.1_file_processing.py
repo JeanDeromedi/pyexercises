@@ -42,10 +42,49 @@ DELIVERABLE
 # -
 # -
 
-# 1. In:
-# 2. Process, problem by problem:
-# 3. Out:
-# 4. How I decide which word is the last name:
+# 1. In: A text file containing names with formatting problems.
+# 2. Process, problem by problem: Remove empty lines and extra spaces, standardize capitalization, preserve compound surnames, and sort alphabetically by last name.
+# 3. Out: A new file called names_sorted.txt containing eight cleaned and sorted names.
+# 4. How I decide which word is the last name: The first word is the first name, and the remaining words form the surname. This ensures that van Rossum stays together.
 
 
 # Your code below
+
+with open("names.txt", "r", encoding="utf-8") as infile:
+    lines = infile.readlines()
+
+names = []
+
+for line in lines:
+    words = line.strip().split()
+    if not words:
+        continue
+
+    first_name = words[0].capitalize()
+    surname = " ".join(
+        word.lower() if word.lower() == "van" else word.capitalize()
+        for word in words[1:]
+    )
+    names.append((first_name, surname))
+
+names.sort(key=lambda name: name[1].lower())
+
+with open("names_sorted.txt", "w", encoding="utf-8") as outfile:
+    for first_name, surname in names:
+        outfile.write(first_name + " " + surname + "\n")
+
+print("Original lines:", len(lines))
+print("Cleaned names:", len(names))
+print("First name in sorted list:", " ".join(names[0]))
+print("Last name in sorted list:", " ".join(names[-1]))
+print("Saved cleaned names to names_sorted.txt")
+
+
+# TEST RESULTS
+# Original file: 10 lines.
+# Cleaned file: 8 lines.
+# Two empty lines were removed.
+# First sorted name: Margaret Hamilton.
+# Last sorted name: Guido van Rossum.
+# The original file was not modified.
+# All results matched expectations.

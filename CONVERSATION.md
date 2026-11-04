@@ -432,3 +432,22 @@ What does the function return when the score is 45?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-04 22:07, in .
+
+**Me:** How can I read a text file in Python using open() and readlines()?
+
+**Tutor:**
+
+Reading a text file line by line.
+
+```python
+# TODO: replace 'data.txt' with your file path
+with open('data.txt', 'r') as file:
+    lines = file.readlines()
+
+# lines is now a list of strings, one per line
+```
+
+What mode should you use with `open()` to read a text file?
